@@ -9,6 +9,8 @@ Der Nachweis ist eine PDF-Datei. Die PDF-Datei enthält:
 
 
 # Funktionen
+## System ist zustandslos
+Das System speichert keine Daten auf dem Server.
 ## Ausstellen von Berechtigungen
 Unter _{APPURL}/issue_ können Nachweise für beliebige Daten ausgestellt werden.
 
