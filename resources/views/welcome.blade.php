@@ -8,6 +8,11 @@
 
 @section('content')
 
+    <div class="card">
+
+        <div class="card-body">
 @markdom(str_replace("{APPURL}",config("app.url"),file_get_contents(base_path('README.md'))))
 
+        </div>
+    </div>
 @stop
