@@ -51,7 +51,7 @@
                         <b>Rolle</b>
                     </td>
                     <td>
-                        {{ ($proof->getRole() == 'teacher' ? "Lehkraft" : "Schüler/in") }} in {{ $proof->getFederalSate() }}
+                        {{ ($proof->getRole() == 'teacher' ? "Lehrkraft" : "Schüler/in") }} in {{ $proof->getFederalSate() }}
                     </td>
                 </tr>
                 <tr>
