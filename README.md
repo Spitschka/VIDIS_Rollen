@@ -4,8 +4,8 @@ POC, der zeigen soll, wie eine Rollenbestätigung in Zusammenarbeit mit VIDIS er
 # Wie sieht der Nachweis konkret aus?
 Der Nachweis ist eine PDF-Datei. Die PDF-Datei enthält:
 - Die die nachzuweisenden Daten für den Menschen lesbar
-- Einen QR Code angebracht, der zu einer Verifizierungsseite (_{APPURL}/qr-code-verify_) führt, um schnell die Echtheit des Nachweises prüfen zu können
-- Eine eingebettete XML-Datei, die alle Informationen enthält, um offline die Echtheit prüfen zu können
+- Einen QR Code angebracht, der zu einer Verifizierungsseite (_{APPURL}/qr_) führt, um schnell die Echtheit des Nachweises prüfen zu können (online)
+- Eine eingebettete JSON-Info mit Signatur, die alle Informationen enthält, um offline die Echtheit prüfen zu können
 
 
 # Funktionen
